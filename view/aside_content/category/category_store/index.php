@@ -1,0 +1,1 @@
+<?php require_once 'store_add_view.php'?>

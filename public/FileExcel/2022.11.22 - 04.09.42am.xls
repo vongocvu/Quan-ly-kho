@@ -1,0 +1,187 @@
+
+            <table>
+                  <thead>
+                        <tr>
+                              <th>STT</th>
+                              <th>Tên hàng hóa</th>
+                              <th>Đơn vị tính</th>
+                              <th>Số lượng</th>
+                              <th>Giá nhập</th>
+                              <th>Giá bán lẻ</th>
+                              <th>Giá bán sỉ</th>
+                              <th>Xuất xứ</th>
+                              <th>Nhóm hhàng</th>
+                              <th>Ghi chú</th>
+                        </tr>
+                  </thead>
+            <tbody>
+                        <tr>
+                        <td>1</td>
+                           <td>Cocacola</td>
+                           <td>Cái</td>
+                           <td>100</td>
+                           <td>19000000</td>
+                           <td>99000</td>
+                           <td>1234</td>
+                           <td>tien phuoc, quang nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>2</td>
+                           <td>Hũ tiếu</td>
+                           <td>Cái</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>3</td>
+                           <td>Mì Tôm</td>
+                           <td>Cái</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>4</td>
+                           <td>Bia Laru</td>
+                           <td>Thùng</td>
+                           <td>95</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>5</td>
+                           <td>Pepsi</td>
+                           <td>Thùng</td>
+                           <td>6666</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>K24/11, Bắc Đẩu, Thanh Bình, Hải Châu, Đà Nẵng</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>6</td>
+                           <td>Bia tiger</td>
+                           <td>Thùng</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>7</td>
+                           <td>Bia Huda</td>
+                           <td>Thùng</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>8</td>
+                           <td>Xì dầu</td>
+                           <td>Thùng</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>9</td>
+                           <td>Nước mắm</td>
+                           <td>Thùng</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>Tien Phuoc, Quang Nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>10</td>
+                           <td>Tương ớt</td>
+                           <td>Thùng</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>99000</td>
+                           <td>1234</td>
+                           <td>K24/11, Bắc Đẩu, Thanh Bình, Hải Châu, Đà Nẵng</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>11</td>
+                           <td>Bánh Quy</td>
+                           <td>Thùng</td>
+                           <td>6666</td>
+                           <td>100000</td>
+                           <td>333</td>
+                           <td>1234</td>
+                           <td>K24/11, Bắc Đẩu, Thanh Bình, Hải Châu, Đà Nẵng</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>12</td>
+                           <td>Miến gói</td>
+                           <td>Hộp</td>
+                           <td>6666</td>
+                           <td>19000000</td>
+                           <td>3333</td>
+                           <td>1234</td>
+                           <td>tien phuoc, quang nam</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    
+                        <tr>
+                        <td>13</td>
+                           <td>Trứng</td>
+                           <td>Kg</td>
+                           <td>100</td>
+                           <td>100000</td>
+                           <td>99000</td>
+                           <td>1234</td>
+                           <td>K24/11, Bắc Đẩu, Thanh Bình, Hải Châu, Đà Nẵng</td>
+                           <td>Đông lạnh</td>
+                           <td></td>
+                        </tr>
+                    </tbody>
+                         </table>

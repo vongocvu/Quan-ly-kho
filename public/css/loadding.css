@@ -1,0 +1,40 @@
+#spinner {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .5s ease-out, visibility 0s linear .5s;
+      z-index: 99999;
+      display: flex;
+      align-items: center !important;
+      justify-content: center !important;
+      background-color: rgba(0, 0, 0, 0.644);
+  } 
+    
+    #spinner.show {
+      transition: opacity .5s ease-out, visibility 0s linear 0s;
+      visibility: visible;
+      opacity: 1;
+  }
+  
+
+  .spinner-border {
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      vertical-align: -0.125em;
+      border: 0.25em solid currentColor;
+      border-right-color: transparent;
+      border-radius: 50%;
+      animation: 0.75s linear infinite spinner-border;
+      color: rgb(255, 255, 255);
+  }
+
+  @keyframes spinner-border {
+      to {
+        transform: rotate(360deg); /* rtl:ignore */
+      }
+    }

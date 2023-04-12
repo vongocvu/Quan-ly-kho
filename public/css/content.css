@@ -1,0 +1,364 @@
+.wrapper-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  border: 1px solid black;
+  border-top: transparent;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.block-list {
+  align-items: center;
+}
+
+.block-item {
+  width: 140px;
+  padding: 10px;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.block-item:hover {
+  background-color: rgb(252, 252, 252);
+  box-shadow: inset 0px 0px 10px 10px rgba(211, 211, 211, 0.7);
+  transform: scale(0.95);
+}
+
+.block-active {
+  background-color: rgb(252, 252, 252);
+  box-shadow: inset 0px 0px 10px 10px rgba(211, 211, 211, 0.7);
+  transform: scale(0.95);
+}
+
+.block-item i {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.block-name {
+  width: 100%;
+  padding: 10px 0;
+  background: var(--main_bgc);
+  text-align: center;
+}
+
+.block-name span {
+  font-weight: bold;
+  color: var(--main-text);
+}
+
+.nav-tabs {
+  height: 0px;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.slider {
+  width: auto;
+  display: flex;
+  height: 40px;
+  padding: 0 5px;
+  position: absolute;
+  left: 0;
+}
+
+.tab-list {
+  display: flex;
+}
+
+.tab-item {
+  min-width: 150px;
+  border: 1px solid black;
+  margin-right: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bgc-table);
+}
+
+.tab-name {
+  width: 100px;
+  line-height: 35px;
+  flex: 1;
+  padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.tab-name {
+  text-decoration: none;
+  color: var(--text-nav-left);
+}
+
+.tab-item span {
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.tab-item span:hover {
+  color: red;
+}
+
+.main-content {
+  height: 72%;
+  display: flex;
+  padding: 5px;
+  padding-top: 0;
+}
+
+.nav-aside-left {
+  width: 400px;
+  height: 100%;
+  border: 1px solid black;
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.nav-aside-title {
+  background: var(--main_bgc);
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.nav-aside-title h4 {
+  font-weight: bold;
+  color: var(--main-text);
+}
+
+.aside-content {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin-left: 5px;
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.nav-aside-item {
+  padding: 5px;
+  background: var(--nav_child_bgc);
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.nav-aside-name span {
+  font-weight: 500;
+  color: var(--main-text);
+}
+
+.nav-aside-name {
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.icon-drop-down {
+  margin-right: 5px;
+  transition: all 0.5s ease;
+  color: var(--main-text);
+}
+
+.nav-child-list {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 0px;
+}
+
+.nav-child-item-pos,
+.nav-child-item {
+  width: 100%;
+  display: inline-block;
+  padding: 5px 10px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-nav-left);
+}
+
+.nav-child-item-pos:hover,
+.nav-child-item:hover {
+  background-color: rgb(204, 247, 232);
+}
+
+.nav-child-item i {
+  width: 50px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.roles-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.content-table-container {
+  width: 100%;
+}
+
+.box_table_scroll {
+  width: 100%;
+}
+
+.box_table_scroll .content-table thead {
+  position: sticky;
+  top: 3px;
+  left: 0;
+  right: 0;
+}
+
+.box_select {
+  border: none;
+  outline: none;
+}
+
+/* width */
+.box_table_scroll::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+}
+
+/* Track */
+.box_table_scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.box_table_scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.box_table_scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.content-setting-roles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-title {
+  padding: 10px;
+  border: 1px solid black;
+  background: var(--main_bgc);
+  color: white;
+  font-weight: normal;
+}
+
+.btn-setting-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+
+.list-user-container {
+  width: 100%;
+}
+
+.box_search_expired {
+  padding-right: 40px;
+}
+
+.form-select {
+  outline: none;
+  padding: 2px 10px;
+  margin: 0 10px;
+}
+
+.btn-search {
+  padding: 2px 10px;
+  background: var(--main_bgc);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  color: red;
+}
+
+.container_offer {
+  position: relative;
+}
+
+.export_products,
+.offer_products {
+  position: absolute;
+  top: 100%;
+  right: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  padding: 10px 20px;
+  max-height: 200px;
+  border: 1px solid black;
+  overflow-y: scroll;
+  list-style-type: none;
+  display: none;
+}
+
+.value_export:hover,
+.value_offer:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.value_export,
+.value_offer {
+  font-size: 15px;
+}
+
+.export-btn:hover {
+  color: red;
+}
+
+.export-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background: var(--main_bgc);
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 5px;
+}

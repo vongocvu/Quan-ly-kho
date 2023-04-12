@@ -1,0 +1,149 @@
+.store-invoice-view {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.377);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.content-invoice {
+      padding: 30px;
+      width: 1400px;
+      background-color: #fff;
+}
+
+.complete_invoice {
+      text-align: center;
+}
+
+.complete_invoice td {
+      font-weight: bold;
+}
+
+.title_desc {
+      font-weight: bold;
+      font-size: 15px;
+}
+
+.box_inventory {
+      width: 1600px;
+      background-color: #fff;
+      padding: 40px;
+}
+
+.box_move {
+      width: 100%;
+      display: flex;
+}
+
+.table_move {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+}
+
+
+.btn_move_store {
+      background-color: transparent;
+      border: none;
+      font-size: 17px;
+      cursor: pointer;
+}
+
+.btn_move_store:hover {
+      color: green;
+}
+
+.box_move_store {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.form_move_store {
+      width: 500px;
+      background: var(--main_bgc);
+      border-radius: 5px;
+      border: 2px solid #fff;
+      padding: 10px;
+}
+
+.form-control {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background-color: #fff;
+}
+
+.form-move-item {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.form-btn-move {
+      display: flex;
+      justify-content: flex-end;
+}
+
+.form-btn-move button {
+      padding: 5px 10px;
+      margin-top: 20px;
+      margin-left: 10px;
+      background: var(--main_bgc);
+      color: #fff;
+      cursor: pointer;
+}
+
+
+.form-btn-move button:hover {
+      color: red
+}
+
+.input_move {
+      width: 50%;
+      padding: 5px 10px;
+      outline: none;
+}
+
+.input_select_store {
+      cursor: pointer;
+}
+
+.form-btn-move > span {
+      font-size: 14px;
+      color: red;
+}
+
+
+.search_ckeck {
+      margin-left: 20px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 5px 10px;
+      justify-content: space-between;
+}
+
+.search_ckeck input {
+      border: none;
+      outline: none;
+      height: 100%;
+      padding: 0 20px;
+}
+
+.table_body {
+      padding: 10px;
+      color: red
+}

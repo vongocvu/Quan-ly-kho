@@ -1,0 +1,1 @@
+<?php require_once 'CateProducts_control.php' ?>

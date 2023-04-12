@@ -1,0 +1,1 @@
+<?php require_once 'system_history_view.php' ?>

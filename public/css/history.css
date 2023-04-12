@@ -1,0 +1,58 @@
+.wrapper_history {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.container_history {
+      padding: 30px;
+      width: 1400px;
+      height: auto;
+      max-height: 70vh;
+      background-color: #fff;
+      border: 1px solid black;
+      border-radius: 3px;
+      overflow-y: scroll;
+}
+
+.title_history h1 {
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+}
+.box_table_history {
+      width: 100%;
+      max-height: 90%;
+      position: relative;
+}
+
+.box_table_history thead {
+      position: sticky;
+      top: -30px;
+      left: 0;
+      right: 0;
+      transition: all 2s ease;
+}
+
+/* width */
+.container_history::-webkit-scrollbar {
+      width: 0px;
+    }
+    
+/* Track */
+.container_history::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+.container_history::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+/* Handle on hover */
+.container_history::-webkit-scrollbar-thumb:hover {
+background: #555;
+}

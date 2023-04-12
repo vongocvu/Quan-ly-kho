@@ -1,0 +1,1 @@
+<?php require_once 'parts_control.php' ?>

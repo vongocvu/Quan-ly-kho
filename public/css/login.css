@@ -1,0 +1,165 @@
+.wrapper {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--header_bgc);
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+  background-color: transparent;
+  border: none;
+}
+
+#form {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.box-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--header_bgc);
+  border-bottom: 1px solid rgb(58 60 59);
+}
+
+.box-title i {
+  margin-left: 10px;
+  color: #fff;
+}
+
+.title {
+  margin-left: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+.form-control {
+  padding: 5px;
+}
+
+.input-control {
+  flex: 1;
+  outline: none;
+  padding: 3px;
+}
+
+.form-control .name {
+  width: 30%;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.form-container {
+  margin: 5px;
+  border: 1px solid green;
+}
+
+.box-password {
+  width: 70%;
+  background-color: #fff;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.input-control-password {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  outline: none;
+  padding: 4px;
+}
+
+.eye {
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.content-show-status {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.308);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999999999999999999 !important;
+}
+
+.box-status {
+  width: 400px;
+  height: 200px;
+  background: var(--main_bgc);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.status-title {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.status-title span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.status-description {
+  flex: 1;
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: 1px solid black;
+  color: red;
+  font-size: 16px;
+}
+
+.box-btn {
+  display: flex;
+  align-items: center;
+}
+
+.submit-btn {
+  background: var(--header_bgc);
+  color: #fff;
+}
+
+.status-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+
+.box-status .fail {
+  color: red
+}
+
+.box-status .success {
+  color: green;
+}

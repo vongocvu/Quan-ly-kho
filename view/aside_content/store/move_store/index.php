@@ -1,0 +1,1 @@
+<?php require_once 'store_move_view.php'  ?>
